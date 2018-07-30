@@ -7,7 +7,7 @@ command = "3 4\n0,1 0,2;0,0 1,0;0,1 1,1;0,2 1,2;1,0 1,1;1,1 1,2;1,1 2,1;1,2 2,2;
 maze = create_maze(command)<br>
 if (maze is not None):<br>
     print_maze(maze)<br>
-输出：
+输出：<br>
 [W]  [W]  [W]  [W]  [W]  [W]  [W]  [W]  [W]<br>
 [W]  [R]  [W]  [R]  [R]  [R]  [W]  [W]  [W]<br>
 [W]  [R]  [W]  [R]  [W]  [R]  [W]  [W]  [W]<br>
