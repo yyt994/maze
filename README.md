@@ -2,11 +2,11 @@ maze
 ====
 例1
 ---
-输入：
-command = "3 4\n0,1 0,2;0,0 1,0;0,1 1,1;0,2 1,2;1,0 1,1;1,1 1,2;1,1 2,1;1,2 2,2;2,2 2,3"
-maze = create_maze(command)
-if (maze is not None):
-    print_maze(maze)
+输入：<br>
+command = "3 4\n0,1 0,2;0,0 1,0;0,1 1,1;0,2 1,2;1,0 1,1;1,1 1,2;1,1 2,1;1,2 2,2;2,2 2,3"<br>
+maze = create_maze(command)<br>
+if (maze is not None):<br>
+    print_maze(maze)<br>
 输出：
 [W]  [W]  [W]  [W]  [W]  [W]  [W]  [W]  [W]
 [W]  [R]  [W]  [R]  [R]  [R]  [W]  [W]  [W]
